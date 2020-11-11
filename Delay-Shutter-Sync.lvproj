@@ -10,6 +10,21 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="OphirPM-DQMH" Type="Folder">
+			<Item Name="Libraries" Type="Folder">
+				<Item Name="Ophir Power Meter" Type="Folder">
+					<Item Name="Ophir Power Meter.lvlib" Type="Library" URL="../../OphirPM-DQMH/Libraries/Ophir Power Meter/Ophir Power Meter.lvlib"/>
+					<Item Name="Test Ophir Power Meter API.vi" Type="VI" URL="../../OphirPM-DQMH/Libraries/Ophir Power Meter/Test Ophir Power Meter API.vi"/>
+				</Item>
+			</Item>
+			<Item Name=".gitattributes" Type="Document" URL="../../OphirPM-DQMH/.gitattributes"/>
+			<Item Name=".gitignore" Type="Document" URL="../../OphirPM-DQMH/.gitignore"/>
+			<Item Name="LICENSE" Type="Document" URL="../../OphirPM-DQMH/LICENSE"/>
+			<Item Name="OphirPM-DQMH.aliases" Type="Document" URL="../../OphirPM-DQMH/OphirPM-DQMH.aliases"/>
+			<Item Name="OphirPM-DQMH.lvlps" Type="Document" URL="../../OphirPM-DQMH/OphirPM-DQMH.lvlps"/>
+			<Item Name="OphirPM-DQMH.lvproj" Type="Document" URL="../../OphirPM-DQMH/OphirPM-DQMH.lvproj"/>
+			<Item Name="README.md" Type="Document" URL="../../OphirPM-DQMH/README.md"/>
+		</Item>
 		<Item Name="Shutter-DQMH" Type="Folder">
 			<Item Name="Libraries" Type="Folder">
 				<Item Name="Shutter" Type="Folder">
@@ -46,8 +61,26 @@
 			<Item Name="SMC100-DQMH.lvlps" Type="Document" URL="../../SMC100-DQMH/SMC100-DQMH.lvlps"/>
 			<Item Name="SMC100-DQMH.lvproj" Type="Document" URL="../../SMC100-DQMH/SMC100-DQMH.lvproj"/>
 		</Item>
+		<Item Name="Find Time Zero.vi" Type="VI" URL="../Find Time Zero.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="Subarray up to Step (SubVI).vi" Type="VI" URL="../Subarray up to Step (SubVI).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="Ophir BuildFrame.vi" Type="VI" URL="/&lt;instrlib&gt;/OphInstr/OphInstr.llb/Ophir BuildFrame.vi"/>
+				<Item Name="Ophir ConfigDevice.vi" Type="VI" URL="/&lt;instrlib&gt;/OphInstr/OphInstr.llb/Ophir ConfigDevice.vi"/>
+				<Item Name="Ophir Error Message.vi" Type="VI" URL="/&lt;instrlib&gt;/OphInstr/OphInstr.llb/Ophir Error Message.vi"/>
+				<Item Name="Ophir Extract.vi" Type="VI" URL="/&lt;instrlib&gt;/OphInstr/OphInstr.llb/Ophir Extract.vi"/>
+				<Item Name="Ophir HeadInfo.vi" Type="VI" URL="/&lt;instrlib&gt;/OphInstr/OphInstr.llb/Ophir HeadInfo.vi"/>
+				<Item Name="Ophir InfoStrings.vi" Type="VI" URL="/&lt;instrlib&gt;/OphInstr/OphInstr.llb/Ophir InfoStrings.vi"/>
+				<Item Name="Ophir InitCom.vi" Type="VI" URL="/&lt;instrlib&gt;/OphInstr/OphInstr.llb/Ophir InitCom.vi"/>
+				<Item Name="Ophir InstrInfo.vi" Type="VI" URL="/&lt;instrlib&gt;/OphInstr/OphInstr.llb/Ophir InstrInfo.vi"/>
+				<Item Name="Ophir Over.vi" Type="VI" URL="/&lt;instrlib&gt;/OphInstr/OphInstr.llb/Ophir Over.vi"/>
+				<Item Name="Ophir RangeList.vi" Type="VI" URL="/&lt;instrlib&gt;/OphInstr/OphInstr.llb/Ophir RangeList.vi"/>
+				<Item Name="Ophir RangeModif.vi" Type="VI" URL="/&lt;instrlib&gt;/OphInstr/OphInstr.llb/Ophir RangeModif.vi"/>
+				<Item Name="Ophir SendPower.vi" Type="VI" URL="/&lt;instrlib&gt;/OphInstr/OphInstr.llb/Ophir SendPower.vi"/>
+				<Item Name="Ophir SendReceive.vi" Type="VI" URL="/&lt;instrlib&gt;/OphInstr/OphInstr.llb/Ophir SendReceive.vi"/>
+				<Item Name="Ophir StringToValue.vi" Type="VI" URL="/&lt;instrlib&gt;/OphInstr/OphInstr.llb/Ophir StringToValue.vi"/>
+			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Version.vi" Type="VI" URL="/&lt;userlib&gt;/SMC100 Controller_Drivers/SMC100_Communication.llb/Version.vi"/>
 			</Item>
