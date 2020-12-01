@@ -61,9 +61,12 @@
 			<Item Name="SMC100-DQMH.lvlps" Type="Document" URL="../../SMC100-DQMH/SMC100-DQMH.lvlps"/>
 			<Item Name="SMC100-DQMH.lvproj" Type="Document" URL="../../SMC100-DQMH/SMC100-DQMH.lvproj"/>
 		</Item>
+		<Item Name="Sub VIs" Type="Folder">
+			<Item Name="Subarray up to Step (SubVI).vi" Type="VI" URL="../Subarray up to Step (SubVI).vi"/>
+		</Item>
 		<Item Name="Find Time Zero.vi" Type="VI" URL="../Find Time Zero.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="Subarray up to Step (SubVI).vi" Type="VI" URL="../Subarray up to Step (SubVI).vi"/>
+		<Item Name="Main_v2.vi" Type="VI" URL="../Main_v2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Ophir BuildFrame.vi" Type="VI" URL="/&lt;instrlib&gt;/OphInstr/OphInstr.llb/Ophir BuildFrame.vi"/>
