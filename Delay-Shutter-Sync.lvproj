@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -65,8 +66,8 @@
 			<Item Name="Subarray up to Step (SubVI).vi" Type="VI" URL="../Subarray up to Step (SubVI).vi"/>
 		</Item>
 		<Item Name="Find Time Zero.vi" Type="VI" URL="../Find Time Zero.vi"/>
+		<Item Name="Main_v1.1.vi" Type="VI" URL="../Main_v1.1.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="Main_v2.vi" Type="VI" URL="../Main_v2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Ophir BuildFrame.vi" Type="VI" URL="/&lt;instrlib&gt;/OphInstr/OphInstr.llb/Ophir BuildFrame.vi"/>
