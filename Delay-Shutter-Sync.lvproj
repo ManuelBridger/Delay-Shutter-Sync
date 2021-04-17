@@ -64,11 +64,11 @@
 		</Item>
 		<Item Name="Sub VIs" Type="Folder">
 			<Item Name="Subarray up to Step (SubVI).vi" Type="VI" URL="../Subarray up to Step (SubVI).vi"/>
+			<Item Name="Save Data (SubVI).vi" Type="VI" URL="../Save Data (SubVI).vi"/>
 		</Item>
-		<Item Name="Find Time Zero.vi" Type="VI" URL="../Find Time Zero.vi"/>
-		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="SP200.lvlib" Type="Library" URL="../../SP200-DQMH/Libraries/SP200/SP200.lvlib"/>
-		<Item Name="Save Data (SubVI).vi" Type="VI" URL="../Save Data (SubVI).vi"/>
+		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="Find Time Zero.vi" Type="VI" URL="../Find Time Zero.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Ophir BuildFrame.vi" Type="VI" URL="/&lt;instrlib&gt;/OphInstr/OphInstr.llb/Ophir BuildFrame.vi"/>
